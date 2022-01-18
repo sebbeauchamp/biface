@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;700&display=swap');
+
+*, body{
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.supersize{ 
+  font-size: 6em;
+  line-height: 1.1em;
+  @media only screen and (max-width: 769px) {
+		font-size: 3em;
+	}
+}
+
+blockquote p{
+font-size: 1.8em;
+color: $pink;
+line-height: 1.25em;
+}
+
+x-small, .x-small{
+  font-size: 0.66666em;
+  line-height: 1.25em;
+}
+
+small, .small{
+  font-size: 0.8em;
+  line-height: 1.25em;
+}
+
+footer p{
+  margin-bottom: 1rem;
+}
+
+hr.white{
+  border-top: solid 1px $white;
+  opacity: 1;
+}

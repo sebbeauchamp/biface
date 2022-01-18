@@ -1,0 +1,68 @@
+baseurl = "biface.co/"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+title = "biface"
+theme = "rock"
+disableLanguages = ["en"]
+
+
+[params]
+    logo = "svg/logo-mainsrouges.svg"
+
+
+
+[languages]
+  [languages.fr]
+    title = "biface"
+    subtitle = "Design et contenus numériques "
+    description="On s’adapte à votre univers et à vos objectifs pour concevoir des outils fonctionnels et impactants."
+    weight = 1
+    languageName = "Fr"
+
+  [[languages.fr.menu.main]]
+      identifier = "about"
+      url    = "/apropos/"
+      name   = "À propos"
+      weight = 2
+
+  [[languages.en.menu.main]]
+      identifier = "about"
+      url    = "/en/about-us/"
+      name   = "about"
+      weight = 2
+
+    [[languages.fr.menu.main]]
+        identifier = "winemakers"
+        url    = "/vignerons/"
+        name   = "Vignerons"
+        weight = 4
+
+    [[languages.en.menu.main]]
+        identifier = "winemaker"
+        url    = "/en/winemaker/"
+        name   = "Vignerons"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        identifier = "wines"
+        url    = "/vins/"
+        name   = "Vins"
+        weight = 4
+
+    [[languages.en.menu.main]]
+        identifier = "wines"
+        url    = "/en/vins/"
+        name   = "Vins"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        identifier = "contact"
+        url    = "/contact/"
+        name   = "Contact"
+        weight = 7
+
+    [[languages.en.menu.main]]
+        identifier = "contact"
+        url    = "/en/contact/"
+        name   = "contact"
+        weight = 8

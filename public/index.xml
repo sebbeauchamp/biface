@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mains Rouges</title>
+    <link>/</link>
+    <description>Recent content on Mains Rouges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 25 Feb 2020 14:27:00 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Auprès de mon Cep</title>
+      <link>/vignerons/aupres-de-mon-cep/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vignerons/aupres-de-mon-cep/</guid>
+      <description>Ian Lu</description>
+    </item>
+    
+    <item>
+      <title>Chapeau Melon</title>
+      <link>/vins/chapeau-melon/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vins/chapeau-melon/</guid>
+      <description>Terroir Chapeau Melon est un vin rouge 100% merlot, issu d’un terroir argilo-calcaire.
+Vinification Les vendanges sont manuelles, les raisins sont éraflés et macèrent pendant 6 jours. La fermentation est assurée par des levures indigènes, avec contrôle des températures. L’élevage est fait en cuve, sur lies fines, pendant 8 mois. Le vin est non filtré, non collé et sans sulfites ajoutés. Le vin est biologique, certifié par Ecocert.
+Dégustation Chapeau Melon est un vin rouge à la robe profonde.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/contact/</guid>
+      <description> Contact Vous voulez en savoir plus sur nous ? Vous voulez en savoir plus sur les vignerons avec qui nous travaillons et sur les vins que nous allons présenter au Québec? Vous voulez nous parler de vos projets autour du bien boire? Ou vous voulez juste nous dire bonjour ?  Pour tout ça …  contact@mainsrouges.com  514-569-0984       </description>
+    </item>
+    
+    <item>
+      <title>Coquelicot</title>
+      <link>/vins/coquelicot/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vins/coquelicot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Tribu</title>
+      <link>/vins/la-tribu/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vins/la-tribu/</guid>
+      <description>La Tribu est un vin rouge</description>
+    </item>
+    
+    <item>
+      <title>La Vrille et le Papilon</title>
+      <link>/vignerons/la-vrille-et-le-papillon/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vignerons/la-vrille-et-le-papillon/</guid>
+      <description>L’enfant du pays Initié dès son plus jeune âge aux travaux agricoles et à la vigne par l’intermédiaire de ses deux grand-pères, c’est à 18 ans, alors qu’il participe aux vendanges chez Gérald Oustric (domaine du Mazel, pionnier du vin nature en Ardèche), que Méryl a la piqûre pour la vigne et le vin. Il entreprend alors une formation en viticulture pendant deux ans à Dijon, puis en oenologie, deux autres années à Montpellier.</description>
+    </item>
+    
+    <item>
+      <title>Les Lendemains qui Chantent</title>
+      <link>/vignerons/les-lendemains-qui-chantent/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vignerons/les-lendemains-qui-chantent/</guid>
+      <description>Alexandre Michel</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>lorem ipsum</description>
+    </item>
+    
+    <item>
+      <title>Salut à Toi</title>
+      <link>/vins/salut-a-toi/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vins/salut-a-toi/</guid>
+      <description>La Tribu est un vin rouge</description>
+    </item>
+    
+    <item>
+      <title>Z Blanc</title>
+      <link>/vins/z-blanc/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/vins/z-blanc/</guid>
+      <description>La Tribu est un vin rouge</description>
+    </item>
+    
+    <item>
+      <title>À propos</title>
+      <link>/apropos/</link>
+      <pubDate>Tue, 25 Feb 2020 14:27:00 +0100</pubDate>
+      
+      <guid>/apropos/</guid>
+      <description>-- À Propos Nous avons eu beaucoup de plaisir à découvrir chacun des vins que nous importons. Notre objectif est qu’ils vous en donnent autant.       Le vin est un produit  populaire  Le vin n’est pas un produit de luxe. Il est le fruit du travail d’agriculteurs et d’artisans. Apprécier un bonne bouteille n’est pas non plus une épreuve technique ou intellectuelle. C’est un moment simple et de partage.</description>
+    </item>
+    
+  </channel>
+</rss>

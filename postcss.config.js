@@ -1,9 +1,19 @@
+const autoprefixer = require('autoprefixer')
+const purgecss = require('@fullhuman/postcss-purgecss')
+const whitelister = require('purgecss-whitelister');
+
 module.exports = {
-  plugins: {
-    "postcss-import": {},
-    "postcss-preset-env": {
-      browsers: "last 2 versions"
-    },
-    autoprefixer: {}
-  }
-};
+    plugins: [
+        autoprefixer(),
+        purgecss({
+            content: [
+                'themes/rock/layouts/**/*.html',
+                'content/**/*.md',
+                'content/**/*.html',
+            ],
+            whitelist: [
+                'lazyloaded',
+    ],
+}),
+],
+}

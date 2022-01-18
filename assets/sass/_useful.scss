@@ -1,0 +1,87 @@
+// .bg-darkpink        { background-color:$darkpink; }
+// .bg-pink            { background-color:$pink; }
+// .bg-lightpink       { background-color:$lightpink; }
+// .bg-lighterpink     { background-color:$lighterpink; }
+
+// .bg-darkerbeige     { background-color:$darkerbeige;}
+// .bg-darkbeige       { background-color:$darkbeige;}
+// .bg-beige           { background-color:$beige;}
+// .bg-lightbeige      { background-color:$lightbeige;}
+// .bg-lighterbeige    { background-color:$lighterbeige;}
+
+// .bg-transparent     {background: transparent;}
+
+
+
+// .text-darkerpink    { color:$darkerpink; }
+// .text-darkpink      { color:$darkpink; }
+// .text-pink          { color:$pink; }
+// .text-lightpink     { color:$lightpink; }
+// .text-lighterpink   { color:$lighterpink; }
+
+// .text-darkerpurple  { color:$darkerpurple;}
+// .text-darkpurple    { color:$darkpurple;}
+// .text-purple        { color:$purple;}
+// .text-lightpurple   { color:$lightpurple;}
+// .text-lighterpurple { color:$lighterpurple;}
+
+.text-black         { color:$black; }
+.text-darkergray    { color:$darkergray;}
+.text-darkgray      { color:$darkgray;}
+.text-gray          { color:$gray;}
+.text-lightgray     { color:$lightgray;}
+.text-lightergray   { color:$lightergray;}
+.text-biface        { color:$biface;}
+.text-bifacelight   { color:$bifacelight;}
+.text-bifacelighter { color:$bifacelighter;}
+.text-bifacedark    { color:$bifacedark;}
+.text-bifacedarker  { color:$bifacedarker;}
+
+.text-red  { color:$red;}
+.text-orange  { color:$orange;}
+
+
+.bg-biface          { background-color:$biface;}
+.bg-bifacelight     { background-color:$bifacelight;}
+.bg-bifacelighter   { background-color:$bifacelighter;}
+.bg-bifacedark      { background-color:$bifacedark;}
+.bg-bifacedarker    { background-color:$bifacedarker;}
+
+
+// .text-darkerbeige   { color:$darkerbeige;}
+// .text-darkbeige     { color:$darkbeige;}
+// .text-beige         { color:$beige;}
+// .text-lightbeige    { color:$lightbeige;}
+// .text-lighterbeige  { color:$lighterbeige;}
+
+// .z-index1    { z-index: 1; }
+// .z-index10   { z-index: 10; }
+// .z-index100  { z-index: 100; }
+// .z-index1000 { z-index: 1000; }
+
+// .geomanistregular     { font-family: 'geomanistregular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important; }
+// .geomanistitalic      { font-family: 'geomanistitalic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important; }
+// .geomanistbold        { font-family: 'geomanistbold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important; }
+// .geomanistbolditalic  { font-family: 'geomanistbolditalic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important; }
+
+// .fz-1_2 { font-size: 1.2em !important;}
+// .fz-1   { font-size: 1em !important;}
+
+// .sticky-2 { position: -webkit-sticky; position: sticky; top:2em; }
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+      }
+  }
