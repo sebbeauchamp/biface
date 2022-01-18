@@ -71,7 +71,7 @@
 
 
 .rotate {
-    animation: rotation 8s infinite linear;
+    animation: rotation 8s infinite ease-in-out;
   }
 
   @keyframes rotation {
@@ -83,5 +83,21 @@
     }
     100% {
         transform: rotate(0deg);
+      }
+  }
+
+  a.contact {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 100%;
+    text-decoration: none;
+    color: $bifacelight;
+    position: fixed;
+    top:2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 5000;
+      &:hover{
+        color: $bifacelighter;
       }
   }
