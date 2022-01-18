@@ -22,6 +22,9 @@
 }
 
 footer {
+	background: url('/images/footer-biface.jpg') no-repeat top center scroll; 
+	background-size: cover;
+
 	padding-top: 5 * $spacer;
 	@media (min-width: 768px) {
 			padding-top: 10 * $spacer;

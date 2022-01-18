@@ -90,7 +90,7 @@ hr {
 hr:not([size]) {
   height: 1px; }
 
- h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+ h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -117,6 +117,8 @@ h4, .h4 {
   @media (min-width: 1200px) {
     h4, .h4 {
       font-size: 1.5rem; } }
+h5, .h5 {
+  font-size: 1.25rem; }
 
 p {
   margin-top: 0;
@@ -134,6 +136,9 @@ ul {
 
 ul ul {
   margin-bottom: 0; }
+
+small, .small {
+  font-size: 0.875em; }
 
 a {
   color: #0d6efd;
@@ -239,13 +244,13 @@ input {
 .col {
   flex: 1 0 0%; }
 
-.col-6 {
-  flex: 0 0 auto;
-  width: 50%; }
-
 .col-10 {
   flex: 0 0 auto;
   width: 83.33333333%; }
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%; }
 
 .col-12 {
   flex: 0 0 auto;
@@ -258,6 +263,9 @@ input {
   margin-left: 16.66666667%; }
 
 @media (min-width: 768px) {
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%; }
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%; }
@@ -266,7 +274,11 @@ input {
     width: 83.33333333%; }
   .col-md-11 {
     flex: 0 0 auto;
-    width: 91.66666667%; } }
+    width: 91.66666667%; }
+  .offset-md-0 {
+    margin-left: 0; }
+  .offset-md-1 {
+    margin-left: 8.33333333%; } }
 
 @media (min-width: 992px) {
   .col-lg-4 {
@@ -287,8 +299,6 @@ input {
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333333%; }
-  .offset-lg-0 {
-    margin-left: 0; }
   .offset-lg-1 {
     margin-left: 8.33333333%; } }
 
@@ -387,8 +397,9 @@ input {
 .align-self-center {
   align-self: center !important; }
 
-.m-3 {
-  margin: 1rem !important; }
+.mx-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
 
 .mx-3 {
   margin-right: 1rem !important;
@@ -397,10 +408,6 @@ input {
 .my-3 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important; }
-
-.my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important; }
 
 .mt-2 {
   margin-top: 0.5rem !important; }
@@ -423,6 +430,9 @@ input {
 .mb-2 {
   margin-bottom: 0.5rem !important; }
 
+.mb-3 {
+  margin-bottom: 1rem !important; }
+
 .mb-4 {
   margin-bottom: 1.5rem !important; }
 
@@ -432,8 +442,8 @@ input {
 .p-0 {
   padding: 0 !important; }
 
-.p-3 {
-  padding: 1rem !important; }
+.p-2 {
+  padding: 0.5rem !important; }
 
 .p-5 {
   padding: 3rem !important; }
@@ -496,11 +506,24 @@ input {
 @media (min-width: 768px) {
   .justify-content-md-center {
     justify-content: center !important; }
+  .m-md-3 {
+    margin: 1rem !important; }
   .mx-md-auto {
     margin-right: auto !important;
     margin-left: auto !important; }
+  .mt-md-1 {
+    margin-top: 0.25rem !important; }
   .p-md-5 {
-    padding: 3rem !important; } }
+    padding: 3rem !important; }
+  .py-md-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important; }
+  .py-md-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important; }
+  .py-md-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
 
 @media (min-width: 992px) {
   .justify-content-lg-start {
@@ -515,16 +538,7 @@ input {
   .mb-lg-5 {
     margin-bottom: 3rem !important; }
   .p-lg-5 {
-    padding: 3rem !important; }
-  .py-lg-3 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important; }
-  .py-lg-4 {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important; }
-  .py-lg-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; } }
+    padding: 3rem !important; } }
 
 *, body {
   font-family: 'Spline Sans', sans-serif; }
@@ -535,6 +549,10 @@ input {
   @media only screen and (max-width: 769px) {
     .supersize {
       font-size: 3em; } }
+
+small, .small {
+  font-size: 0.8em;
+  line-height: 1.25em; }
 
 footer p {
   margin-bottom: 1rem; }
@@ -562,6 +580,8 @@ hr.white {
     z-index: -10; }
 
 footer {
+  background: url("/images/footer-biface.jpg") no-repeat top center scroll;
+  background-size: cover;
   padding-top: 5rem; }
   @media (min-width: 768px) {
     footer {
@@ -608,10 +628,6 @@ footer {
 
 .bg-bifacelight {
   background-color: #DCCEA3; }
-
-.rotate {
-  -webkit-animation: rotation 8s infinite linear;
-          animation: rotation 8s infinite linear; }
 
 @keyframes rotation {
   0% {
