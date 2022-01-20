@@ -47,6 +47,8 @@
 .bg-bifacedark      { background-color:$bifacedark;}
 .bg-bifacedarker    { background-color:$bifacedarker;}
 
+.bg-secdarker    { background-color:$secdarker;}
+
 
 // .text-darkerbeige   { color:$darkerbeige;}
 // .text-darkbeige     { color:$darkbeige;}
@@ -68,36 +70,3 @@
 // .fz-1   { font-size: 1em !important;}
 
 // .sticky-2 { position: -webkit-sticky; position: sticky; top:2em; }
-
-
-.rotate {
-    animation: rotation 8s infinite ease-in-out;
-  }
-
-  @keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(30deg);
-    }
-    100% {
-        transform: rotate(0deg);
-      }
-  }
-
-  a.contact {
-    background-color: black;
-    padding: 1rem;
-    border-radius: 100%;
-    text-decoration: none;
-    color: $bifacelight;
-    position: fixed;
-    top:2rem;
-    right: 2rem;
-    cursor: pointer;
-    z-index: 5000;
-      &:hover{
-        color: $bifacelighter;
-      }
-  }

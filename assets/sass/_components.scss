@@ -32,7 +32,52 @@ footer p{
   margin-bottom: 1rem;
 }
 
-hr.white{
-  border-top: solid 1px $white;
+hr.biface{
+  border: none;
+  background: inherit;
+  border-top: solid 1px $bifacelight;
   opacity: 1;
+}
+
+
+a.contact {
+  background: black;
+  width: 7rem;
+  height: 7rem;
+  text-align: center;
+  padding: 1rem;
+  line-height: 5rem;
+  border-radius: 100%;
+  text-decoration: none;
+  color: $bifacelighter;
+  position: fixed;
+  top:1rem;
+  right: 2rem;
+  cursor: pointer;
+  z-index: 5000;
+  transition: all 250ms;
+  animation: upanddown 2.5s infinite ease-in-out;
+  
+  @media only screen and (max-width: 769px) {
+    top: initial;  
+    bottom: 2rem;
+    }
+
+    &:hover{
+      color: black;
+      box-shadow: $box-shadow-lg;
+      background: $bifacelight;
+    }
+}
+
+@keyframes upanddown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(0px);
+    }
 }
