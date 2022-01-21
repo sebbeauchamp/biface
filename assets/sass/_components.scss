@@ -56,7 +56,7 @@ a.contact {
   cursor: pointer;
   z-index: 5000;
   transition: all 250ms;
-  animation: upanddown 2.5s infinite ease-in-out;
+  animation: upanddown 2s infinite ease-in-out;
   
   @media only screen and (max-width: 769px) {
     top: initial;  

@@ -20,19 +20,21 @@
 
 .home-hero{
 	background: 
-		// linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%),
-		linear-gradient(120deg, rgba(0, 0, 0, 0.5) 0%, rgba(245, 153, 61, 0.1) 100%),
- 
-		// linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(245, 153, 61, 0.1) 50%, rgba(230, 191, 153, 0.1) 100%),
-		url('/images/home-hero-biface.jpg') no-repeat center center fixed; 
+		// linear-gradient(120deg, rgba(0, 0, 0, 0.4) 0%, rgba(245, 153, 61, 0.05) 100%),
+		linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%),
+ 		url('/images/home-hero-biface.jpg') no-repeat center center fixed; 
 	background-size: cover;
 	padding: 10 * $spacer 0 5 * $spacer;
 }
 
 footer {
-	background: url('/images/footer-biface.jpg') no-repeat top center scroll; 
+	background: 
+	// linear-gradient(120deg, rgba(0, 0, 0, 0.6) 0%, rgba(245, 153, 61, 0.05) 100%),
+	linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
+	url('/images/footer-biface.jpg') no-repeat top center scroll; 
 	background-size: cover;
 	padding-top: 5 * $spacer;
+	color: $white;
 	@media (min-width: 768px) {
 			padding-top: 10 * $spacer;
 		}
