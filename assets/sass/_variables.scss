@@ -7,7 +7,7 @@ $lightgray:     #D9D9D9;
 $lightergray:   #F3F3F3;
 $white:         #ffffff;
 
-$biface:        #D9A60C;
+$biface:        #FF8C66;
 $bifacelight:   #958450;
 $bifacelighter: #F5EDD6;
 $bifacedark:    #B8952E;
@@ -17,3 +17,17 @@ $secdarker:       #262C21;
 
 $red:           #A6593F;
 $orange:        #B8732E;
+
+
+ /* Webfont: MangoGrotesque-Bold */
+ @font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../font/mangogrotesque/MangoGrotesque-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../font/mangogrotesque/MangoGrotesque-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/mangogrotesque/MangoGrotesque-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../font/mangogrotesque/MangoGrotesque-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../font/mangogrotesque/MangoGrotesque-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}

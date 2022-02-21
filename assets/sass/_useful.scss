@@ -36,6 +36,7 @@
 .text-bifacelighter { color:$bifacelighter;}
 .text-bifacedark    { color:$bifacedark;}
 .text-bifacedarker  { color:$bifacedarker;}
+.text-transparent   { color:inherit; -webkit-text-stroke: inherit;}
 
 .text-red  { color:$red;}
 .text-orange  { color:$orange;}
@@ -49,6 +50,11 @@
 
 .bg-secdarker    { background-color:$secdarker;}
 
+.text-mg-bold{
+    font-family: 'MangoGrotesque', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 // .text-darkerbeige   { color:$darkerbeige;}
 // .text-darkbeige     { color:$darkbeige;}
