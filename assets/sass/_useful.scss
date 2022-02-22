@@ -41,6 +41,7 @@
 .text-red  { color:$red;}
 .text-orange  { color:$orange;}
 
+.translate--4 { transform: translateY(-4 * $spacer); }
 
 .bg-biface          { background-color:$biface;}
 .bg-bifacelight     { background-color:$bifacelight;}
@@ -55,6 +56,7 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+.font-sans-serif   { font-family: $font-family-sans-serif; }
 
 // .text-darkerbeige   { color:$darkerbeige;}
 // .text-darkbeige     { color:$darkbeige;}

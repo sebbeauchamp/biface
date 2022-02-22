@@ -5,7 +5,6 @@ $enable-negative-margins:                     true;
 $grid-gutter-width:            32px;
 $container-padding-x: $grid-gutter-width;
 
-
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -36,8 +35,8 @@ $h4-font-size:                $font-size-base * 1.5;
 $h5-font-size:                $font-size-base * 1.25;
 $h6-font-size:                $font-size-base !default;
 
-$headings-font-family:        'MangoGrotesqueBlack', sans-serif;
-$headings-font-weight:        normal;
+$headings-font-family:        'MangoGrotesque', sans-serif;
+$headings-font-weight:        bold;
 $headings-line-height:        1.15;
 $headings-color:              black;
 
