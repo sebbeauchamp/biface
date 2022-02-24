@@ -6,13 +6,20 @@ body{
 	padding-bottom: 5 * $spacer;
 	padding-top: 5 * $spacer;
 	@media (min-width: 768px) {
+		padding-bottom: 7 * $spacer;
+		padding-top: 7 * $spacer;
+	}
+	@media (min-width: 992px) {
 		padding-bottom: 10 * $spacer;
-		padding-bottom: 10 * $spacer;
+		padding-top: 10 * $spacer;
 	}
 }
 .section-bspacer{
 	padding-bottom: 3 * $spacer;
 	@media (min-width: 768px) {
+		padding-bottom: 5 * $spacer;
+	}
+	@media (min-width: 992px) {
 		padding-bottom: 8 * $spacer;
 	}
 }
@@ -20,6 +27,9 @@ body{
 .section-tspacer{
 	padding-top: 3 * $spacer;
 	@media (min-width: 768px) {
+		padding-top: 5 * $spacer;
+	}
+	@media (min-width: 992px) {
 		padding-top: 8 * $spacer;
 	}
 }
@@ -45,7 +55,7 @@ padding-left: 3em;
 	background: 
 			// linear-gradient(120deg, rgba(0, 0, 0, 0.4) 0%, rgba(245, 153, 61, 0.05) 100%),
 			linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%),
-			url('/images/home-hero-biface.jpg') no-repeat center center fixed; 
+			url('/images/home-hero-biface.jpg') no-repeat center center; 
 		background-size: cover;
 		display: block;
 		z-index: -1;
@@ -77,6 +87,61 @@ padding-left: 3em;
 	// }
 }
 
+
+.marquee {
+	position: relative;
+	overflow: hidden;
+	--offset: 20vw;
+	--move-initial: calc(-25% + var(--offset));
+	--move-final: calc(-50% + var(--offset));
+	background: none;
+	border: none;
+	box-shadow: none;
+	margin: 2rem 0;
+	
+	&:hover, &:focus {
+	  .marquee__inner {
+		animation-play-state: paused;
+	  }
+	}
+  }
+  
+  .marquee__inner {
+	width: fit-content;
+	display: flex;
+	position: relative;
+	transform: translate3d(var(--move-initial), 0, 0);
+	animation: marquee 10s linear infinite;
+  }
+  
+  .marquee span {
+	font-size: 25vw;
+	padding: 0 ;
+	white-space: nowrap;
+	color: $lightgray;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	line-height: 1.5;
+	@media (min-width: 768px) {
+		font-size: 20vw;
+		}
+		@media (min-width: 992px) {
+		font-size: 15vw;
+		}
+  }
+  
+  @keyframes marquee {
+	0% {
+	  transform: translate3d(var(--move-initial), 0, 0);
+	}
+  
+	100% {
+	  transform: translate3d(var(--move-final), 0, 0);
+	}
+  }
+
+
 // footer {
 // 	background: 
 // 	// linear-gradient(120deg, rgba(0, 0, 0, 0.6) 0%, rgba(245, 153, 61, 0.05) 100%),
@@ -88,156 +153,4 @@ padding-left: 3em;
 // 	@media (min-width: 768px) {
 // 			padding-top: 10 * $spacer;
 // 		}
-// }
-
-.marquee {
-	width: 100%;
-	height: 24vw;
-	overflow: hidden;
-	position: relative;
-  }
-  
-  .marquee div {
-	display: block;
-	width: 200%;
-	font-size: 12vw;
-	position: absolute;
-	overflow: hidden;
-	animation: marquee 8s linear infinite;
-  }
-  
-  .marquee span {
-	float: left;
-	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
-	line-height: 2;
-	font-size: 12vw;
-
-  }
-  
-  @keyframes marquee {
-	0% { left: 0; }
-	100% { left: -100%; }
-  }
-
-// .marquee {
-//     position: relative;
-//     overflow: hidden;
-//     --offset: 20vw;
-//     --move-initial: calc(-25% + var(--offset));
-//     --move-final: calc(-50% + var(--offset));
-// 	@media (min-width: 768px) {
-// 	}
-// }
-
-// .marquee__inner {
-//     width: fit-content;
-//     display: flex;
-//     position: relative;
-//     transform: translate3d(var(--move-initial), 0, 0);
-//     animation: marquee 8s linear infinite;
-// }
-
-// .marquee span {
-//     font-size: 15vw;
-//     // padding: 0 2vw;
-// 	// color: $bifacelight;
-// 	color: black;
-// 	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-// 	-webkit-text-stroke-width: 1px;
-// 	-webkit-text-stroke-color: white;
-// 	line-height: 2;
-
-// 	@media (min-width: 768px) {
-// 		font-size: 12vw;
-// 	}
-// }
-
-// @keyframes marquee {
-//     0% {
-//         transform: translate3d(var(--move-initial), 0, 0);
-//     }
-
-//     100% {
-//         transform: translate3d(var(--move-final), 0, 0);
-//     }
-// }
-
-
-
-// // Magic parallax mixins
-
-// $parallax-perspective : 1 !default;
-// $parallax-element     : "body" !default;
-// $parallax-ios         : true !default;
-
-// @mixin parallax-init(
-//   $perspective  : $parallax-perspective,
-//   $element      : $parallax-element,
-//   $parallax-ios : $parallax-ios
-//   ) {
-//   @if $element == "body" {
-//     html, body {
-//       width: 100%;
-//       height: 100%;
-//       margin: 0;
-//       padding: 0;
-//       overflow: hidden;
-//     }
-//   }
-//   #{$element} {
-//     overflow: auto;
-//     perspective: $perspective * 1px;
-//     transform-style: preserve-3d;
-//     // Allows for smooth scrolling but disables parallax effects.
-//     @if $parallax-ios == false {
-//       -webkit-overflow-scrolling: touch;
-//     }
-//     // Preserve 3D
-//     &, * {
-//       transform-style: preserve-3d;
-//     }
-//   }
-// }
-
-// @mixin parallax(
-//   $distance    : 0,
-//   $perspective : $parallax-perspective
-//   ) {
-//   transform:
-//     translateZ($distance * $perspective * 1px)
-//     scale(abs($distance - 1))
-//   ;
-//   z-index: $distance * 1000;
-// }
-
-// // End of magic parallax mixins
-
-
-// @include parallax-init;
-
-// .para-05
-//   .para-05 {
-//     @include parallax(.05);
-
-//   }
-//   .para-10 {
-//     @include parallax(.1);
-
-//   }
-//   .para-15 {
-//     @include parallax(.15);
- 
-//   }
-//   .para-20 {
-//     @include parallax(.2);
-  
-//   }
-//   .para-25 {
-//     @include parallax(.25);
-  
-//   }
-//   .para-30 {
-//     @include parallax(.3);
 // }

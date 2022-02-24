@@ -20,11 +20,14 @@
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 10em;
+  font-size: 5em;
   line-height: 0.85em;
   margin-top: 0.25em;
-  @media only screen and (max-width: 769px) {
-		font-size: 5em;
+	@media (min-width: 768px) {
+    font-size: 8em;
+	}
+	@media (min-width: 992px) {
+    font-size: 10em;
 	}
 }
 
@@ -32,10 +35,13 @@
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 8em;
+  font-size: 4.5em;
   line-height: 1em;
-  @media only screen and (max-width: 769px) {
-		font-size: 4.5em;
+  @media (min-width: 768px) {
+    font-size: 6em;
+	}
+	@media (min-width: 992px) {
+    font-size: 8em;
 	}
 }
 
@@ -43,10 +49,13 @@
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 5.5em;
+  font-size: 3.5em;
   line-height: 1em;
-  @media only screen and (max-width: 769px) {
-		font-size: 3.5em;
+  @media (min-width: 768px) {
+    font-size: 4.5em;
+	}
+	@media (min-width: 992px) {
+    font-size: 5.5em;
 	}
 }
 
@@ -54,10 +63,13 @@
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1em;
-  @media only screen and (max-width: 769px) {
-		font-size: 3em;
+  @media (min-width: 768px) {
+    font-size: 3.5em;
+	}
+	@media (min-width: 992px) {
+    font-size: 4em;
 	}
 }
 
@@ -73,10 +85,13 @@
 }
 
 .surtitle{
-  font-size: 2em;
+  font-size: 1em;
   line-height: 1.2;
-  @media only screen and (max-width: 769px) {
-		font-size: 1em;
+  @media (min-width: 768px) {
+    font-size: 1.5em;
+	}
+	@media (min-width: 992px) {
+    font-size: 2em;
 	}
 }
 
