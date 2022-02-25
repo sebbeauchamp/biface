@@ -402,9 +402,6 @@ input {
 .fw-bold {
   font-weight: 700 !important; }
 
-.lh-1 {
-  line-height: 1 !important; }
-
 .text-center {
   text-align: center !important; }
 
@@ -623,7 +620,7 @@ a.contact {
     transform: translateY(0px); } }
 
 body {
-  background: #2C2C21; }
+  background: #2c2c21; }
 
 .section {
   padding-bottom: 5rem;
@@ -656,7 +653,7 @@ body {
   padding-left: 3em; }
   .home-service:before {
     display: block;
-    content: '';
+    content: "";
     height: 0.25em;
     width: 2em;
     background-color: #FF9966;
@@ -675,51 +672,54 @@ body {
   .home-hero .text {
     transform: translateY(-6rem); }
 
-.marquee {
+.text-slider {
   position: relative;
-  overflow: hidden;
-  --offset: 20vw;
-  --move-initial: calc(-25% + var(--offset));
-  --move-final: calc(-50% + var(--offset));
-  background: none;
-  border: none;
-  box-shadow: none;
-  margin: 2rem 0; }
-  .marquee:hover .marquee__inner, .marquee:focus .marquee__inner {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused; }
-
-.marquee__inner {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  display: flex;
-  position: relative;
-  transform: translate3d(var(--move-initial), 0, 0);
-  -webkit-animation: marquee 10s linear infinite;
-          animation: marquee 10s linear infinite; }
-
-.marquee span {
-  font-size: 25vw;
-  padding: 0;
+  display: block;
+  width: 100%;
   white-space: nowrap;
+  height: 1.2em; }
+
+.layout-row {
+  flex-direction: row; }
+
+.text-slider__inner {
+  position: absolute;
+  top: 0;
   color: #D9D9D9;
   -webkit-text-fill-color: transparent;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-size: 25vw; }
   @media (min-width: 768px) {
-    .marquee span {
+    .text-slider__inner {
       font-size: 20vw; } }
   @media (min-width: 992px) {
-    .marquee span {
+    .text-slider__inner {
       font-size: 15vw; } }
-@keyframes marquee {
+.flex {
+  display: flex !important; }
+
+.text-slider.animated .text-slider__anim {
+  height: 1.2em;
+  -webkit-animation: text-slider 25s linear infinite backwards;
+  animation: text-slider 25s linear infinite backwards;
+  will-change: text-indent; }
+
+.align-start-center {
+  justify-content: flex-start;
+  align-items: center; }
+
+.align-start-center {
+  justify-content: flex-start;
+  align-items: center; }
+
+@keyframes text-slider {
   0% {
-    transform: translate3d(var(--move-initial), 0, 0); }
+    text-indent: 0; }
   100% {
-    transform: translate3d(var(--move-final), 0, 0); } }
+    text-indent: -75%; } }
 
 .text-lightgray {
   color: #D9D9D9; }
