@@ -107,15 +107,13 @@ $move-final: calc(-50% + #{$offset});
         transform: translate3d($move-initial, 0, 0);
         animation: marquee 10s linear infinite;
         animation-play-state: running;
-					&:hover, &:focus {
-				animation-play-state: paused;
-			}
+
   
         span {
             // font-size: 10vw;
             // padding: 0 2vw;
             // color: white;
-			// font-size: 25vw;
+			font-size: 25vw;
 				padding: 0 ;
 				white-space: nowrap;
 				color: $lightgray;

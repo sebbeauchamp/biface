@@ -686,10 +686,8 @@ body {
             animation: marquee 10s linear infinite;
     -webkit-animation-play-state: running;
             animation-play-state: running; }
-    .marquee__inner:hover, .marquee__inner:focus {
-      -webkit-animation-play-state: paused;
-              animation-play-state: paused; }
     .marquee__inner span {
+      font-size: 25vw;
       padding: 0;
       white-space: nowrap;
       color: #D9D9D9;
