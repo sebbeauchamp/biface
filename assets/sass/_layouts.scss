@@ -99,11 +99,11 @@ padding-left: 3em;
 	box-shadow: none;
 	margin: 2rem 0;
 	
-	&:hover, &:focus {
-	  .marquee__inner {
-		animation-play-state: paused;
-	  }
-	}
+	// &:hover, &:focus {
+	//   .marquee__inner {
+	// 	animation-play-state: paused;
+	//   }
+	// }
   }
   
   .marquee__inner {
