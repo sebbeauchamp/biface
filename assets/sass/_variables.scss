@@ -36,3 +36,15 @@ $orange:        #B8732E;
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 640px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+) ;
+// scss-docs-end container-max-widths
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");

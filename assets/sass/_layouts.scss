@@ -50,7 +50,6 @@ body {
 }
 
 .home-hero {
-	margin-top: 10 * $spacer;
 	background: 
 		linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%),
 		url("/images/home-hero-biface.jpg") no-repeat center center;
@@ -58,9 +57,12 @@ body {
 	display: block;
 	z-index: -1;
 	width: 100%;
-	margin: 18em auto 2em;
-	.text {
-		transform: translateY(-6 * $spacer);
+	margin: 13em auto 2em;
+	@media (min-width: 768px) {
+		margin: 14em auto 2em;
+	}
+	@media (min-width: 992px) {
+		margin: 15em auto 2em;
 	}
 }
 
@@ -100,10 +102,10 @@ body {
 	-webkit-animation: text-slider 30s linear infinite backwards;
 	animation: text-slider 30s linear infinite backwards;
 	will-change: text-indent;
-		&:hover, &:focus {
-		animation-play-state: paused;
-		cursor: crosshair;
-	}
+		// &:hover, &:focus {
+		// animation-play-state: paused;
+		// cursor: crosshair;
+	// }
 }
 
 @-webkit-keyframes text-slider {

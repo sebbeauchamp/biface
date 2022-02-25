@@ -1,8 +1,32 @@
 // @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;700&display=swap');
 
-// *, body{
-//   font-family: sans-serif;
-// }
+.navbar-dark .navbar-toggler{
+  padding: 0;
+  border: none;
+  &:hover{
+    color: rgba(255,255,255,1);  
+  }
+}
+.navbar-collapse{
+  @media only screen and (max-width: 769px) {	
+position: absolute;
+width: 100%;
+top: 0px;
+left: 0px;
+text-align: left;
+background-color: black;
+padding: 100px 32px 32px;
+font-size: 2.5em;
+z-index: -1;
+font-weight: bold;
+}
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 1em;
+  font-weight: bold;
+  color: rgba(255,255,255,0.85);  
+}
 
 ::selection{
   background-color: $black;
@@ -40,7 +64,7 @@
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 4.5em;
+  font-size: 4.4em;
   line-height: 1em;
   @media (min-width: 768px) {
     font-size: 6em;

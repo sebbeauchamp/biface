@@ -1,4 +1,4 @@
-<footer>
+<footer id="contact">
   <div class="w-100">
     <div class="row mx-0">
       <div class="col-12 col-md-6 order-2 order-md-1 px-0 section-tspacer">
@@ -20,13 +20,48 @@
           <p class="mb-0"><a class="supersize-sm text-dark text-decoration-none"
               href="mailto:bonjour@biface.co">bonjour@biface.co</a></p>
           <div class="col-12 mt-5 py-5 text-dark">
-            ©2021 biface.co
+            <small>©2021 biface.co</small>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md p-0 order-1 sticky-md-top">
-        <img class="img-fluid" src="images/footer-biface.jpg">
+      <div class="col-12 col-md p-0 order-1">
+        <img class="img-fluid sticky-0" src="images/footer-biface.jpg">
       </div>
     </div>
   </div>
 </footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/scrolltosmooth/dist/scrolltosmooth.pkgd.min.js"></script>
+
+<script type="text/javascript">
+
+  /**
+ * ScrollToSmooth 3 Demo
+ * vanilla JS smooth scroll to anchor library
+ *
+ * Author: Bastian Fießinger
+ * Git Repository: https://github.com/bfiessinger/scrollToSmooth
+ * NPM Package: https://www.npmjs.com/package/scrolltosmooth
+ */
+const scrollToSmoothSettings = {
+	// Selectors
+	container: document,
+	targetAttribute: 'href',
+	topOnEmptyHash: true,
+	offset: null,
+	// Speed and duration
+	duration: 800,
+	durationRelative: true,
+	durationMin: 300,
+	durationMax: 5000,
+	easing: easeInOutQuint,
+	// Callbacks
+	onScrollStart: null,
+	onScrollUpdate: null,
+	onScrollEnd: null
+};
+
+const smoothScroll = new scrollToSmooth('a', scrollToSmoothSettings);
+smoothScroll.init();
+</script>
+

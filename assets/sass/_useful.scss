@@ -63,6 +63,10 @@
 }
 .font-sans-serif   { font-family: $font-family-sans-serif; }
 
+.translate--y-md {
+    transform: translateY(-3 * $spacer);
+}
+
 // .text-darkerbeige   { color:$darkerbeige;}
 // .text-darkbeige     { color:$darkbeige;}
 // .text-beige         { color:$beige;}
@@ -82,4 +86,4 @@
 // .fz-1_2 { font-size: 1.2em !important;}
 // .fz-1   { font-size: 1em !important;}
 
-// .sticky-2 { position: -webkit-sticky; position: sticky; top:2em; }
+.sticky-0 { position: -webkit-sticky; position: sticky; top:0; }

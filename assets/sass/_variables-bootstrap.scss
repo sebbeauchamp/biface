@@ -35,7 +35,7 @@ $h4-font-size:                $font-size-base * 1.5;
 $h5-font-size:                $font-size-base * 1.25;
 $h6-font-size:                $font-size-base !default;
 
-$headings-font-family:        'MangoGrotesque', sans-serif;
+$headings-font-family:        $font-family-sans-serif;
 $headings-font-weight:        bold;
 $headings-line-height:        1.15;
 $headings-color:              black;
