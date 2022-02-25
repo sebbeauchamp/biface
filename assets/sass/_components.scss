@@ -4,6 +4,11 @@
 //   font-family: sans-serif;
 // }
 
+::selection{
+  background-color: $black;
+  opacity: 1;
+  color: $biface;
+}
 
 .supersize-xxl{ 
   font-family: 'MangoGrotesque', sans-serif;

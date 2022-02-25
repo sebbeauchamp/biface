@@ -31,7 +31,12 @@
 .text-gray          { color:$gray;}
 .text-lightgray     { color:$lightgray;}
 .text-lightergray   { color:$lightergray;}
-.text-biface        { color:$biface;}
+.text-biface        { color:$biface;
+    &::selection{
+        background-color: $biface;
+        opacity: 1;
+        color: $black;
+      }}
 .text-bifacelight   { color:$bifacelight;}
 .text-bifacelighter { color:$bifacelighter;}
 .text-bifacedark    { color:$bifacedark;}

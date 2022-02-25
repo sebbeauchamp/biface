@@ -69,16 +69,13 @@ body {
 	display: block;
 	width: 100%;
 	white-space: nowrap;
-	height: 1.2em;
-}
-
-.layout-row,
-.sm-layout-row {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
+	height: 50vw;
+	@media (min-width: 768px) {
+		height: 40vw;
+	}
+	@media (min-width: 992px) {
+		height: 35vw;
+	}
 }
 
 .text-slider__inner {
@@ -87,8 +84,8 @@ body {
 	color: $lightgray;
 	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
-	line-height: 1.5;
+	-webkit-text-stroke-color: $lightgray;
+	line-height: 2;
 	font-size: 25vw;
 	@media (min-width: 768px) {
 		font-size: 20vw;
@@ -98,41 +95,15 @@ body {
 	}
 }
 
-.flex {
-	display: -webkit-box !important;
-	display: -webkit-flex !important;
-	display: -ms-flexbox !important;
-	display: flex !important;
-}
-
 .text-slider.animated .text-slider__anim {
-	height: 1.2em;
-	-webkit-animation: text-slider 25s linear infinite backwards;
-	animation: text-slider 25s linear infinite backwards;
+	height: 2em;
+	-webkit-animation: text-slider 30s linear infinite backwards;
+	animation: text-slider 30s linear infinite backwards;
 	will-change: text-indent;
-}
-.align-start-center,
-.sm-align-start-center {
-	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
-.align-start-center,
-.sm-align-start-center {
-	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
+		&:hover, &:focus {
+		animation-play-state: paused;
+		cursor: crosshair;
+	}
 }
 
 @-webkit-keyframes text-slider {
