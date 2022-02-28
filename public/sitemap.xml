@@ -1,93 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>/vignerons/aupres-de-mon-cep/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vins/chapeau-melon/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vins/coquelicot/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vins/la-tribu/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vignerons/la-vrille-et-le-papillon/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vignerons/les-lendemains-qui-chantent/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
   <url>
     <loc>/</loc>
     <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/my-first-post/</loc>
     <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/posts/</loc>
     <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vins/salut-a-toi/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vignerons/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vins/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vins/z-blanc/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/apropos/</loc>
-    <lastmod>2020-02-25T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
   </url>
-  
 </urlset>

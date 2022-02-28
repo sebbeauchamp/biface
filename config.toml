@@ -1,7 +1,7 @@
 baseurl = "biface.co/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "biface"
+title = "Biface"
 theme = "rock"
 disableLanguages = ["en"]
 
