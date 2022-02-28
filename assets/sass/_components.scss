@@ -38,10 +38,13 @@ font-weight: bold;
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 12em;
+  font-size: 5em;
   line-height: 1em;
-  @media only screen and (max-width: 769px) {
-		font-size: 5.5em;
+  @media (min-width: 768px) {
+    font-size: 9em;
+	}
+	@media (min-width: 992px) {
+    font-size: 11.75em;
 	}
 }
 

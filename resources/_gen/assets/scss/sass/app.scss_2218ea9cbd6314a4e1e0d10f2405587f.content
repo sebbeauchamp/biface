@@ -192,6 +192,13 @@ button,
   @media (min-width: 1200px) {
     .display-2 {
       font-size: 4.5rem; } }
+.display-6 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 300;
+  line-height: 1.25; }
+  @media (min-width: 1200px) {
+    .display-6 {
+      font-size: 2.5rem; } }
 
 .img-fluid {
   max-width: 100%;
@@ -681,11 +688,14 @@ button,
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 12em;
+  font-size: 5em;
   line-height: 1em; }
-  @media only screen and (max-width: 769px) {
+  @media (min-width: 768px) {
     .supersize-xxl {
-      font-size: 5.5em; } }
+      font-size: 9em; } }
+  @media (min-width: 992px) {
+    .supersize-xxl {
+      font-size: 11.75em; } }
 .supersize-xl {
   font-family: 'MangoGrotesque', sans-serif;
   font-weight: bold;
