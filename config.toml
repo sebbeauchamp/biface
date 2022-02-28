@@ -5,10 +5,6 @@ title = "biface"
 theme = "rock"
 disableLanguages = ["en"]
 
-
-[params]
-    logo = "svg/logo-mainsrouges.svg"
-
 [languages]
   [languages.fr]
     title = "biface"
