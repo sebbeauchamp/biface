@@ -400,8 +400,7 @@ button,
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
     color: rgba(255, 255, 255, 0.75); }
 
-
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .show > .nav-link {
   color: #fff; }
 
 .navbar-dark .navbar-toggler {
@@ -585,9 +584,6 @@ button,
 .ps-2 {
   padding-left: 0.5rem !important; }
 
-.ps-4 {
-  padding-left: 1.5rem !important; }
-
 .fw-normal {
   font-weight: 400 !important; }
 
@@ -669,15 +665,59 @@ button,
     left: 0px;
     text-align: left;
     background-color: black;
-    padding: 100px 0px 32px;
+    padding: 80px 0px 32px;
     font-size: 2.5em;
+    line-height: 2;
     z-index: -1;
-    font-weight: bold; } }
+    font-weight: bold;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.24); } }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0 1em;
+  padding: 0 0.85em;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.85); }
+
+/* Remove border from toggler */
+.navbar-toggler {
+  border: 0 !important; }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important; }
+
+/* Lines of the Toggler */
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  display: block;
+  transition: all 0.2s; }
+
+/* Adds Space between the lines */
+.middle-bar {
+  margin: 5px auto; }
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%; }
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%; }
+
+/* State when navbar is opened (END) */
+/* State when navbar is collapsed (START) */
+
+/* State when navbar is collapsed (END) */
+/* Color of Toggler when collapsed */
 
 ::selection {
   background-color: #000000;

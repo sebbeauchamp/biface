@@ -2,8 +2,8 @@
     <title>{{if .IsHome}}{{ $.Site.Params.title }} — {{$.Site.Params.subtitle}}{{else}}{{.Title}} - {{ $.Site.Params.title }}{{end}}</title>
     <meta charset="utf-8">
     <link rel="preconnect" href="https://www.google-analytics.com">
-    <!-- <meta name="robots" content="index, follow, all"> -->
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, follow, all">
+    <!-- <meta name="robots" content="noindex, nofollow" /> -->
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,15 +23,15 @@
     <meta property="og:url" content="{{ $.Permalink }}">
     <meta property="og:title" content="{{if .IsHome}}{{ $.Site.Params.title }} - {{$.Site.Params.subtitle}}{{else}}{{.Title}} - {{ $.Site.Params.title }}{{end}}">
     <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-    <meta property="og:image" content="https://mainsrouges.com/images/mainsrouges-accueil.jpg">
-    <meta property="og:image:secure_url" content="https://mainsrouges.com/images/mainsrouges-accueil.jpg">
+    <meta property="og:image" content="{{ $.Permalink }}/images/share-biface.jpg">
+    <meta property="og:image:secure_url" content="{{ $.Permalink }}/images/share-biface.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ $.Permalink }}">
     <meta property="twitter:title" content="{{if .IsHome}}{{ $.Site.Params.title }} - {{$.Site.Params.subtitle}}{{else}}{{.Title}} - {{ $.Site.Params.title }}{{end}}">
     <meta property="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-    <meta property="twitter:image" content="https://mainsrouges.com/images/mainsrouges-accueil.jpg">
+    <meta property="twitter:image" content="{{ $.Permalink }}/images/share-biface.jpg">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
