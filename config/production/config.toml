@@ -1,2 +1,16 @@
-baseurl = "/"
 canonifyURLs = false
+
+baseurl = "https://biface.co/"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+title = "Biface"
+theme = "rock"
+disableLanguages = ["en"]
+
+[languages]
+  [languages.fr]
+    title = "Biface"
+    subtitle = "Design et contenus numériques "
+    description="On s’adapte à votre univers et à vos objectifs pour concevoir des outils fonctionnels et impactants."
+    weight = 1
+    languageName = "Fr"
