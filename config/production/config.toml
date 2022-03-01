@@ -7,6 +7,12 @@ title = "Biface"
 theme = "rock"
 disableLanguages = ["en"]
 
+disableKinds = ["taxonomy", "term"]
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
 [languages]
   [languages.fr]
     title = "Biface"
