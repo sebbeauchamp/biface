@@ -649,7 +649,8 @@ button,
   /* Safari, Android, iOS */
   font-style: normal;
   font-weight: bold;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  font-display: swap; }
 
 .navbar-dark .navbar-toggler {
   padding: 0;

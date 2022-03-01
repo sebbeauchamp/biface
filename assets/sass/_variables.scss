@@ -27,9 +27,10 @@ $orange:        #B8732E;
          url('../font/mangogrotesque/MangoGrotesque-Bold.woff') format('woff'), /* Modern Browsers */
          url('../font/mangogrotesque/MangoGrotesque-Bold.woff2') format('woff2'), /* Modern Browsers */
          url('../font/mangogrotesque/MangoGrotesque-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: normal;
+    font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
+    font-display: swap;
 }
 
 // scss-docs-start container-max-widths
